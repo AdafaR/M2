@@ -1,0 +1,139 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.ishak{
+    background-color:coral;
+    height: 100%;
+    width: 100%;
+}
+.aboba{
+    background-color: black;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 100%;
+    height:100%;
+    list-style-type:square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+    color: white;
+}
+.baxmyt{
+    height: 100%;
+    background-color: navy;
+    width: 25%;
+}
+.gorod{
+    height: 100%;
+    background-color: rgb(183, 0, 255);
+    width: 25%;
+}
+.ishak li{
+    background-color: black;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 100%;
+    height: 100%;
+    list-style-type:square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+    color: white;
+}
+.nav{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+
+}
+.nav ul{
+    display: flex;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: crimson;
+    padding: 8px 16px;
+    float: left ;
+}
+.nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.block5{
+    width: 100%;
+    height: 300px;
+    background-color: chartreuse;
+}
+.btn1{
+    font-size: 30px;
+    padding: 70px;
+    border-radius: 90px;
+    background-color:aqua;
+    border: 5px solid black;
+    cursor: wait;
+    box-shadow: 100px 100px 50px black;
+}
+.btn1:hover{
+    background-color: coral;
+    color: red;
+}
+.btn1:active{
+    background-color: azure;
+    color: chartreuse;
+    box-shadow:none;
+    
+}
